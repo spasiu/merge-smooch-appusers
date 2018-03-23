@@ -1,0 +1,19 @@
+{
+  "name": "merge-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "dotenv": "5.0.1",
+    "express": "4.16.3",
+    "jsonwebtoken": "8.2.0",
+    "puppeteer": "1.2.0",
+    "smooch-core": "6.0.0"
+  }
+}
