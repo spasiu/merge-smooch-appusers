@@ -15,6 +15,8 @@ This sample exposes a service with a `POST /merge` route that takes a JSON body
 }
 ```
 
+*Note* two users with `userId` properties cannot be merged in this way. If you want to merge a user with a userId property to some other user(s), just provide the userId in the body, and fill the array with the other user(s).
+
 # Get started
 
 1. Create a _.env_ file based on _.env.example_.
